@@ -51,6 +51,37 @@ ModelImporter:
     100090: Text_009
     100092: Text_010
     100094: Text_011
+    100096: Camera
+    100098: Circle.001
+    100100: Circle.002
+    100102: Circle.003
+    100104: Circle.004
+    100106: Circle.005
+    100108: Circle.006
+    100110: Circle.007
+    100112: Circle.008
+    100114: Circle.009
+    100116: Circle.010
+    100118: Circle.011
+    100120: Cube.001
+    100122: Cube.002
+    100124: Cube.003
+    100126: Lamp
+    100128: Plane.001
+    100130: Plane.002
+    100132: Plane.003
+    100134: Plane.004
+    100136: Plane.005
+    100138: Plane.006
+    100140: Plane.007
+    100142: Plane.008
+    100144: Plane.009
+    100146: Plane.010
+    100148: Plane.011
+    100150: Plane.012
+    100152: Sphere.001
+    100154: Sphere.002
+    100156: Sphere.003
     400000: Circle
     400002: Circle_001
     400004: Circle_002
@@ -99,6 +130,38 @@ ModelImporter:
     400090: Text_009
     400092: Text_010
     400094: Text_011
+    400096: Camera
+    400098: Circle.001
+    400100: Circle.002
+    400102: Circle.003
+    400104: Circle.004
+    400106: Circle.005
+    400108: Circle.006
+    400110: Circle.007
+    400112: Circle.008
+    400114: Circle.009
+    400116: Circle.010
+    400118: Circle.011
+    400120: Cube.001
+    400122: Cube.002
+    400124: Cube.003
+    400126: Lamp
+    400128: Plane.001
+    400130: Plane.002
+    400132: Plane.003
+    400134: Plane.004
+    400136: Plane.005
+    400138: Plane.006
+    400140: Plane.007
+    400142: Plane.008
+    400144: Plane.009
+    400146: Plane.010
+    400148: Plane.011
+    400150: Plane.012
+    400152: Sphere.001
+    400154: Sphere.002
+    400156: Sphere.003
+    2000000: Camera
     2100000: Surface
     2100002: 4
     2100004: 7
@@ -154,6 +217,35 @@ ModelImporter:
     2300088: Text_009
     2300090: Text_010
     2300092: Text_011
+    2300094: Circle.001
+    2300096: Circle.002
+    2300098: Circle.003
+    2300100: Circle.004
+    2300102: Circle.005
+    2300104: Circle.006
+    2300106: Circle.007
+    2300108: Circle.008
+    2300110: Circle.009
+    2300112: Circle.010
+    2300114: Circle.011
+    2300116: Cube.001
+    2300118: Cube.002
+    2300120: Cube.003
+    2300122: Plane.001
+    2300124: Plane.002
+    2300126: Plane.003
+    2300128: Plane.004
+    2300130: Plane.005
+    2300132: Plane.006
+    2300134: Plane.007
+    2300136: Plane.008
+    2300138: Plane.009
+    2300140: Plane.010
+    2300142: Plane.011
+    2300144: Plane.012
+    2300146: Sphere.001
+    2300148: Sphere.002
+    2300150: Sphere.003
     3300000: Circle
     3300002: Circle_001
     3300004: Circle_002
@@ -201,6 +293,35 @@ ModelImporter:
     3300088: Text_009
     3300090: Text_010
     3300092: Text_011
+    3300094: Circle.001
+    3300096: Circle.002
+    3300098: Circle.003
+    3300100: Circle.004
+    3300102: Circle.005
+    3300104: Circle.006
+    3300106: Circle.007
+    3300108: Circle.008
+    3300110: Circle.009
+    3300112: Circle.010
+    3300114: Circle.011
+    3300116: Cube.001
+    3300118: Cube.002
+    3300120: Cube.003
+    3300122: Plane.001
+    3300124: Plane.002
+    3300126: Plane.003
+    3300128: Plane.004
+    3300130: Plane.005
+    3300132: Plane.006
+    3300134: Plane.007
+    3300136: Plane.008
+    3300138: Plane.009
+    3300140: Plane.010
+    3300142: Plane.011
+    3300144: Plane.012
+    3300146: Sphere.001
+    3300148: Sphere.002
+    3300150: Sphere.003
     4300000: Plane_013
     4300002: Text_011
     4300004: Text_010
@@ -248,6 +369,35 @@ ModelImporter:
     4300088: Cube_002
     4300090: Cube_001
     4300092: Cube
+    4300094: Plane.012
+    4300096: Plane.011
+    4300098: Plane.010
+    4300100: Plane.009
+    4300102: Plane.008
+    4300104: Plane.007
+    4300106: Plane.006
+    4300108: Plane.005
+    4300110: Plane.004
+    4300112: Plane.003
+    4300114: Plane.002
+    4300116: Plane.001
+    4300118: Sphere.003
+    4300120: Sphere.002
+    4300122: Sphere.001
+    4300124: Circle.011
+    4300126: Circle.010
+    4300128: Circle.009
+    4300130: Circle.008
+    4300132: Circle.007
+    4300134: Circle.006
+    4300136: Circle.005
+    4300138: Circle.004
+    4300140: Circle.003
+    4300142: Circle.002
+    4300144: Circle.001
+    4300146: Cube.003
+    4300148: Cube.002
+    4300150: Cube.001
     6400000: Circle
     6400002: Circle_001
     6400004: Circle_002
@@ -294,8 +444,38 @@ ModelImporter:
     6400086: Text_009
     6400088: Text_010
     6400090: Text_011
+    6400092: Circle.001
+    6400094: Circle.002
+    6400096: Circle.003
+    6400098: Circle.004
+    6400100: Circle.005
+    6400102: Circle.006
+    6400104: Circle.007
+    6400106: Circle.008
+    6400108: Circle.009
+    6400110: Circle.010
+    6400112: Circle.011
+    6400114: Cube.001
+    6400116: Cube.002
+    6400118: Cube.003
+    6400120: Plane.001
+    6400122: Plane.002
+    6400124: Plane.003
+    6400126: Plane.004
+    6400128: Plane.005
+    6400130: Plane.006
+    6400132: Plane.007
+    6400134: Plane.008
+    6400136: Plane.009
+    6400138: Plane.010
+    6400140: Plane.011
+    6400142: Plane.012
+    6400144: Sphere.001
+    6400146: Sphere.002
+    6400148: Sphere.003
     7400000: Default Take
     9500000: //RootNode
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
