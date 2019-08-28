@@ -55,5 +55,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+Assets/Rokoko.meta
+Assets/Rokoko
+
 # Crashlytics generated file
 crashlytics-build.properties
