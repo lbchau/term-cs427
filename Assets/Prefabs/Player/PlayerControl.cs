@@ -14,14 +14,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E))
-        {
-            animator.SetTrigger("OpenDoor");
-        }
-        if (Input.GetKey(KeyCode.R))
-        {
-            animator.SetTrigger("PickUp");
-        }
+        
     }
     public bool collided;
     public GameObject collidedTo;
@@ -31,6 +24,19 @@ public class PlayerControl : MonoBehaviour
         {
             collided = true;
             collidedTo = collision.gameObject;
+            if (Input.GetKey(KeyCode.E))
+            {
+                animator.SetTrigger("PickUp");
+            }
+        }
+        if (collision.gameObject.tag == "Door")
+        {
+            collided = true;
+            collidedTo = collision.gameObject;
+            if (Input.GetKey(KeyCode.E))
+            {
+                animator.SetTrigger("OpenDoor");
+            }
         }
     }
     void OnCollisionExit(Collision collision)
