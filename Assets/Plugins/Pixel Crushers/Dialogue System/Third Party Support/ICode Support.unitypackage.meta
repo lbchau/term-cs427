@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: 3bbd872b6b815ff42b77151107bea0b7
-NativeFormatImporter:
+guid: 6566ea9453ea9a54c8adda4ce157bfe5
+labels:
+- Ai
+- Icode
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
