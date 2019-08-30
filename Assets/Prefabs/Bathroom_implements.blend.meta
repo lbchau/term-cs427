@@ -19,6 +19,21 @@ ModelImporter:
     100026: Towel_square_2_Cylinder_011
     100028: Towel_square_3_Cylinder_012
     100030: Towel_square_Cylinder_008
+    100032: Box_Cylinder.007
+    100034: Brush_1_Cylinder.005
+    100036: Brush_2_Cylinder.009
+    100038: Camera
+    100040: Cup_Cylinder.001
+    100042: Lamp
+    100044: Paper_1_Cylinder.013
+    100046: Paper_2_Cylinder.014
+    100048: Soap_1_Cylinder.004
+    100050: Soap_2_Cylinder.006
+    100052: Towel_2_Cylinder.002
+    100054: Towel_3_Cylinder.003
+    100056: Towel_square_2_Cylinder.011
+    100058: Towel_square_3_Cylinder.012
+    100060: Towel_square_Cylinder.008
     400000: //RootNode
     400002: Box_Cylinder_007
     400004: Brush_1_Cylinder_005
@@ -35,6 +50,22 @@ ModelImporter:
     400026: Towel_square_2_Cylinder_011
     400028: Towel_square_3_Cylinder_012
     400030: Towel_square_Cylinder_008
+    400032: Box_Cylinder.007
+    400034: Brush_1_Cylinder.005
+    400036: Brush_2_Cylinder.009
+    400038: Camera
+    400040: Cup_Cylinder.001
+    400042: Lamp
+    400044: Paper_1_Cylinder.013
+    400046: Paper_2_Cylinder.014
+    400048: Soap_1_Cylinder.004
+    400050: Soap_2_Cylinder.006
+    400052: Towel_2_Cylinder.002
+    400054: Towel_3_Cylinder.003
+    400056: Towel_square_2_Cylinder.011
+    400058: Towel_square_3_Cylinder.012
+    400060: Towel_square_Cylinder.008
+    2000000: Camera
     2100000: Cup__Cup_tex_jpg
     2100002: Towel_2__Towel_tex_3_jpg
     2100004: Soap_Box__Box_tex_jpg
@@ -50,6 +81,21 @@ ModelImporter:
     2100024: Soap__Soap_box_tex_jpg
     2100026: Towel_square_1__Towel_square_tex_1_jpg
     2100028: Bottle_2__Soap_2_tex_jpg
+    2100030: Cup
+    2100032: Towel_2
+    2100034: Soap_Box
+    2100036: Towel_square_2
+    2100038: Brush_2
+    2100040: Paper_2
+    2100042: Towel_1
+    2100044: Bottle_1
+    2100046: Towel_square_3
+    2100048: Paper_1
+    2100050: Brush_1
+    2100052: Towel_3
+    2100054: Soap
+    2100056: Towel_square_1
+    2100058: Bottle_2
     2300000: Box_Cylinder_007
     2300002: Brush_1_Cylinder_005
     2300004: Brush_2_Cylinder_009
@@ -65,6 +111,19 @@ ModelImporter:
     2300024: Towel_square_2_Cylinder_011
     2300026: Towel_square_3_Cylinder_012
     2300028: Towel_square_Cylinder_008
+    2300030: Box_Cylinder.007
+    2300032: Brush_1_Cylinder.005
+    2300034: Brush_2_Cylinder.009
+    2300036: Cup_Cylinder.001
+    2300038: Paper_1_Cylinder.013
+    2300040: Paper_2_Cylinder.014
+    2300042: Soap_1_Cylinder.004
+    2300044: Soap_2_Cylinder.006
+    2300046: Towel_2_Cylinder.002
+    2300048: Towel_3_Cylinder.003
+    2300050: Towel_square_2_Cylinder.011
+    2300052: Towel_square_3_Cylinder.012
+    2300054: Towel_square_Cylinder.008
     3300000: Box_Cylinder_007
     3300002: Brush_1_Cylinder_005
     3300004: Brush_2_Cylinder_009
@@ -80,6 +139,19 @@ ModelImporter:
     3300024: Towel_square_2_Cylinder_011
     3300026: Towel_square_3_Cylinder_012
     3300028: Towel_square_Cylinder_008
+    3300030: Box_Cylinder.007
+    3300032: Brush_1_Cylinder.005
+    3300034: Brush_2_Cylinder.009
+    3300036: Cup_Cylinder.001
+    3300038: Paper_1_Cylinder.013
+    3300040: Paper_2_Cylinder.014
+    3300042: Soap_1_Cylinder.004
+    3300044: Soap_2_Cylinder.006
+    3300046: Towel_2_Cylinder.002
+    3300048: Towel_3_Cylinder.003
+    3300050: Towel_square_2_Cylinder.011
+    3300052: Towel_square_3_Cylinder.012
+    3300054: Towel_square_Cylinder.008
     4300000: Cup_Cylinder_001
     4300002: Towel_2_Cylinder_002
     4300004: Box_Cylinder_007
@@ -95,8 +167,22 @@ ModelImporter:
     4300024: Soap_box_Sphere
     4300026: Towel_square_Cylinder_008
     4300028: Soap_2_Cylinder_006
+    4300030: Cup_Cylinder.001
+    4300032: Towel_2_Cylinder.002
+    4300034: Box_Cylinder.007
+    4300036: Towel_square_2_Cylinder.011
+    4300038: Brush_2_Cylinder.009
+    4300040: Paper_2_Cylinder.014
+    4300042: Soap_1_Cylinder.004
+    4300044: Towel_square_3_Cylinder.012
+    4300046: Paper_1_Cylinder.013
+    4300048: Brush_1_Cylinder.005
+    4300050: Towel_3_Cylinder.003
+    4300052: Towel_square_Cylinder.008
+    4300054: Soap_2_Cylinder.006
     7400000: Default Take
     9500000: //RootNode
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
