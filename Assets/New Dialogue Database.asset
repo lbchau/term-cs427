@@ -578,7 +578,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 226
+        x: 227.06384
         y: 78
         width: 160
         height: 30
@@ -862,8 +862,8 @@ MonoBehaviour:
         y: 230
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 52.12767}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 0, y: 49.81297}
+    canvasZoom: 0.9100001
   syncInfo:
     syncActors: 0
     syncItems: 0
