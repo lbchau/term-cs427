@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 9e46309e0b98512a9bfbf039495bc657
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box_Cylinder_007
+    100004: Brush_1_Cylinder_005
+    100006: Brush_2_Cylinder_009
+    100008: Cup_Cylinder_001
+    100010: Paper_1_Cylinder_013
+    100012: Paper_2_Cylinder_014
+    100014: Soap_1_Cylinder_004
+    100016: Soap_2_Cylinder_006
+    100018: Soap_box_Sphere
+    100020: Towel_1_Cylinder
+    100022: Towel_2_Cylinder_002
+    100024: Towel_3_Cylinder_003
+    100026: Towel_square_2_Cylinder_011
+    100028: Towel_square_3_Cylinder_012
+    100030: Towel_square_Cylinder_008
+    400000: //RootNode
+    400002: Box_Cylinder_007
+    400004: Brush_1_Cylinder_005
+    400006: Brush_2_Cylinder_009
+    400008: Cup_Cylinder_001
+    400010: Paper_1_Cylinder_013
+    400012: Paper_2_Cylinder_014
+    400014: Soap_1_Cylinder_004
+    400016: Soap_2_Cylinder_006
+    400018: Soap_box_Sphere
+    400020: Towel_1_Cylinder
+    400022: Towel_2_Cylinder_002
+    400024: Towel_3_Cylinder_003
+    400026: Towel_square_2_Cylinder_011
+    400028: Towel_square_3_Cylinder_012
+    400030: Towel_square_Cylinder_008
+    2100000: Cup__Cup_tex_jpg
+    2100002: Towel_2__Towel_tex_3_jpg
+    2100004: Soap_Box__Box_tex_jpg
+    2100006: Towel_square_2__Towel_square_tex_2_jpg
+    2100008: Brush_2__Brush_2_tex_jpg
+    2100010: Paper_2__Paper_2_tex_jpg
+    2100012: Towel_1__Towel_tex_1_jpg
+    2100014: Bottle_1__Soap_1_tex_jpg
+    2100016: Towel_square_3__Towel_square_tex_3_jpg
+    2100018: Paper_1__Paper_1_tex_jpg
+    2100020: Brush_1__Brush_1_tex_jpg
+    2100022: Towel_3__Towel_tex_2_jpg
+    2100024: Soap__Soap_box_tex_jpg
+    2100026: Towel_square_1__Towel_square_tex_1_jpg
+    2100028: Bottle_2__Soap_2_tex_jpg
+    2300000: Box_Cylinder_007
+    2300002: Brush_1_Cylinder_005
+    2300004: Brush_2_Cylinder_009
+    2300006: Cup_Cylinder_001
+    2300008: Paper_1_Cylinder_013
+    2300010: Paper_2_Cylinder_014
+    2300012: Soap_1_Cylinder_004
+    2300014: Soap_2_Cylinder_006
+    2300016: Soap_box_Sphere
+    2300018: Towel_1_Cylinder
+    2300020: Towel_2_Cylinder_002
+    2300022: Towel_3_Cylinder_003
+    2300024: Towel_square_2_Cylinder_011
+    2300026: Towel_square_3_Cylinder_012
+    2300028: Towel_square_Cylinder_008
+    3300000: Box_Cylinder_007
+    3300002: Brush_1_Cylinder_005
+    3300004: Brush_2_Cylinder_009
+    3300006: Cup_Cylinder_001
+    3300008: Paper_1_Cylinder_013
+    3300010: Paper_2_Cylinder_014
+    3300012: Soap_1_Cylinder_004
+    3300014: Soap_2_Cylinder_006
+    3300016: Soap_box_Sphere
+    3300018: Towel_1_Cylinder
+    3300020: Towel_2_Cylinder_002
+    3300022: Towel_3_Cylinder_003
+    3300024: Towel_square_2_Cylinder_011
+    3300026: Towel_square_3_Cylinder_012
+    3300028: Towel_square_Cylinder_008
+    4300000: Cup_Cylinder_001
+    4300002: Towel_2_Cylinder_002
+    4300004: Box_Cylinder_007
+    4300006: Towel_square_2_Cylinder_011
+    4300008: Brush_2_Cylinder_009
+    4300010: Paper_2_Cylinder_014
+    4300012: Towel_1_Cylinder
+    4300014: Soap_1_Cylinder_004
+    4300016: Towel_square_3_Cylinder_012
+    4300018: Paper_1_Cylinder_013
+    4300020: Brush_1_Cylinder_005
+    4300022: Towel_3_Cylinder_003
+    4300024: Soap_box_Sphere
+    4300026: Towel_square_Cylinder_008
+    4300028: Soap_2_Cylinder_006
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
