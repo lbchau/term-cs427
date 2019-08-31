@@ -18,6 +18,7 @@ public class PlayerControl : MonoBehaviour
     }
     public bool collided;
     public GameObject collidedTo;
+    public Animator animatorCol;
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "PickUpObj")
@@ -33,9 +34,12 @@ public class PlayerControl : MonoBehaviour
         {
             collided = true;
             collidedTo = collision.gameObject;
+            animatorCol = collision.gameObject.GetComponent<Animator>();
             if (Input.GetKey(KeyCode.E))
             {
+                Debug.Log("getE");
                 animator.SetTrigger("OpenDoor");
+                animatorCol.SetBool("open", true);
             }
         }
     }
