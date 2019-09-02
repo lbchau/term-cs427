@@ -275,6 +275,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 3
+    fields:
+    - title: Name
+      value: nextScene
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -4917,7 +4931,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Yes
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -4955,10 +4969,22 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["nextScene"] = true
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 5134095810730633388, guid: 1d90dee4b6477ac4d91cc7e4e60848d9,
+              type: 3}
+            m_MethodName: changeScene
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       canvasRect:
@@ -5057,7 +5083,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: No
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -5095,16 +5121,28 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["nextScene"] = false
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 5134095810730633388, guid: 1d90dee4b6477ac4d91cc7e4e60848d9,
+              type: 3}
+            m_MethodName: changeScene
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
         x: 221
-        y: 78
+        y: 76
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}

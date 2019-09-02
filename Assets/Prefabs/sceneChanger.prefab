@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8118742126419175280}
   - component: {fileID: 2686368813275635716}
   - component: {fileID: 4103045933926536845}
+  - component: {fileID: 5134095810730633388}
   m_Layer: 0
   m_Name: sceneChanger
   m_TagString: Untagged
@@ -122,8 +123,8 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: 
-  conversationConversant: {fileID: 0}
+  conversation: sceneChanger
+  conversationConversant: {fileID: 8118742126419175281}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
   exclusive: 0
@@ -146,3 +147,15 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: 06246c5f0f3ca8c42ac40638bba8c160, type: 2}
+--- !u!114 &5134095810730633388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118742126419175283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de360afa97a0c384b9b16eb3c976202e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
