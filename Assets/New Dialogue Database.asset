@@ -292,7 +292,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: nextScene
+      value: death
       type: 0
       typeString: 
     - title: Initial Value
@@ -519,7 +519,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 200
-        y: 46.666668
+        y: 36.25
         width: 160
         height: 30
     - id: 4
@@ -750,7 +750,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 200
-        y: 130
+        y: 98.75
         width: 160
         height: 30
     - id: 7
@@ -1212,7 +1212,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1100
-        y: 36.25
+        y: 30
         width: 160
         height: 30
     - id: 14
@@ -1296,7 +1296,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1280
-        y: 36.25
+        y: 30
         width: 160
         height: 30
     - id: 15
@@ -1442,7 +1442,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1280
-        y: 98.75
+        y: 80
         width: 160
         height: 30
     - id: 17
@@ -1729,7 +1729,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["death"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls:
@@ -1969,7 +1969,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 200
-        y: 213.33334
+        y: 161.25
         width: 160
         height: 30
     - id: 26
@@ -2200,7 +2200,7 @@ MonoBehaviour:
     - id: 30
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2220,7 +2220,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: her crying slows down...
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -2413,7 +2413,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1100
-        y: 98.75
+        y: 80
         width: 160
         height: 30
     - id: 33
@@ -2486,7 +2486,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1100
-        y: 161.25
+        y: 130
         width: 160
         height: 30
     - id: 34
@@ -2571,7 +2571,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1280
-        y: 223.75
+        y: 180
         width: 160
         height: 30
     - id: 35
@@ -2638,7 +2638,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1460
-        y: 213.33334
+        y: 212.15689
         width: 160
         height: 30
     - id: 36
@@ -2697,34 +2697,22 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["death"] = true
       onExecute:
         m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 387230702420184306, guid: 11fa47808f95b1a48a96c0c6585701df,
-              type: 3}
-            m_MethodName: SetTrigger
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: death
-              m_BoolArgument: 0
-            m_CallState: 2
+          m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
         x: 1280
-        y: 161.25
+        y: 130
         width: 160
         height: 30
     - id: 37
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2736,15 +2724,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
         value: 2
         type: 5
         typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: she's only mumbling now...
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -2791,13 +2779,13 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 920
-        y: 193.11475
+        y: 180
         width: 160
         height: 30
     - id: 38
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2817,7 +2805,8 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: something along with "I'll be good" and "I'll be better". You decided
+          to leave her alone.
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -2858,7 +2847,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1100
-        y: 223.75
+        y: 180
         width: 160
         height: 30
     - id: 39
@@ -2930,8 +2919,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 926.5574
-        y: 269.34424
+        x: 920
+        y: 230
         width: 160
         height: 30
     - id: 40
@@ -2987,7 +2976,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 40
+        destinationConversationID: 1
+        destinationDialogueID: 42
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -3009,8 +3004,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1105.9388
-        y: 273.98343
+        x: 1100
+        y: 230
         width: 160
         height: 30
     - id: 41
@@ -3076,12 +3071,79 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 206.59792
-        y: 279.99997
+        x: 200
+        y: 223.75
         width: 160
         height: 30
-    canvasScrollPosition: {x: 181.44327, y: 0}
-    canvasZoom: 0.97000015
+    - id: 42
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Oh God she''s screaming now!! '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: Variable["death"] = true
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1280
+        y: 231.17648
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 422.74786, y: 90.61597}
+    canvasZoom: 0.94000036
   - id: 2
     fields:
     - title: Title
