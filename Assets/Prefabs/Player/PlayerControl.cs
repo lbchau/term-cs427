@@ -1,50 +1,51 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
+    public GameObject pause;
+
     // Start is called before the first frame update
-    Animator animator;
     void Start()
     {
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public bool collided;
-    public GameObject collidedTo;
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "PickUpObj")
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            collided = true;
-            collidedTo = collision.gameObject;
-            if (Input.GetKey(KeyCode.E))
-            {
-                animator.SetTrigger("PickUp");
-            }
-        }
-        if (collision.gameObject.tag == "Door")
-        {
-            collided = true;
-            collidedTo = collision.gameObject;
-            if (Input.GetKey(KeyCode.E))
-            {
-                animator.SetTrigger("OpenDoor");
-            }
+            pause.gameObject.SetActive(!(pause.gameObject.activeSelf));
+            Time.timeScale = (Time.timeScale - 1)* (Time.timeScale - 1);
+            //Time.timeScale == 1 ? 0 : 1
         }
     }
-    void OnCollisionExit(Collision collision)
+
+    public void MainMenu()
     {
-        if (collision.gameObject.tag == "PickUpObj")
-        {
-            collided = false;
-            collidedTo = null;
-        }
+        SceneManager.LoadScene(0);
+    }
+
+    public void Unpause()
+    {
+        pause.gameObject.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }
