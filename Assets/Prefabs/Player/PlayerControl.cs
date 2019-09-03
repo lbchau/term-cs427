@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour
 {
     public GameObject pause;
+    public float deathDelay = 5.0f;
+    public GameObject death;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,18 @@ public class PlayerControl : MonoBehaviour
     {
         pause.gameObject.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void DeathScreen()
+    {
+        StartCoroutine(DeathRun(deathDelay));
+    }
+
+    IEnumerator DeathRun(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        death.SetActive(true);
     }
 
     public void ResetScene()
