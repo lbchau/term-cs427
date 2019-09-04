@@ -374,7 +374,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3036777815124442401}
+      - m_Target: {fileID: 5710102400330116484}
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3036777815124442401}
+      - m_Target: {fileID: 5710102400330116484}
         m_MethodName: ResetScene
         m_Mode: 1
         m_Arguments:
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3036777815124442401}
+      - m_Target: {fileID: 5710102400330116484}
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3036777815124442401}
+      - m_Target: {fileID: 5710102400330116484}
         m_MethodName: Unpause
         m_Mode: 1
         m_Arguments:
@@ -1215,7 +1215,7 @@ RectTransform:
   m_Children:
   - {fileID: 6819651100732842055}
   - {fileID: 6830118283099963574}
-  - {fileID: 3036777815124442398}
+  - {fileID: 5710102400330117073}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1544,6 +1544,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7285301048784148155, guid: a88098926d6079840bdbad92d79f298c,
+        type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 6819651100732842054}
+    - target: {fileID: 7285301048784148155, guid: a88098926d6079840bdbad92d79f298c,
+        type: 3}
+      propertyPath: death
+      value: 
+      objectReference: {fileID: 3902128957762955376}
     - target: {fileID: 7285301048784148100, guid: a88098926d6079840bdbad92d79f298c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1599,20 +1609,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7285301048784148155, guid: a88098926d6079840bdbad92d79f298c,
-        type: 3}
-      propertyPath: pause
-      value: 
-      objectReference: {fileID: 6819651100732842054}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88098926d6079840bdbad92d79f298c, type: 3}
---- !u!4 &3036777815124442398 stripped
+--- !u!4 &5710102400330117073 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7285301048784148100, guid: a88098926d6079840bdbad92d79f298c,
     type: 3}
   m_PrefabInstance: {fileID: 5710102400330115994}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3036777815124442401 stripped
+--- !u!114 &5710102400330116484 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7285301048784148155, guid: a88098926d6079840bdbad92d79f298c,
     type: 3}

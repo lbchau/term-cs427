@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.09179748, g: 0.09365354, b: 0.14808753, a: 1}
+  m_IndirectSpecularColor: {r: 0.091780774, g: 0.09365333, b: 0.14808753, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -696,11 +696,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PTK_Stairs_Large (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4319380545694952484, guid: bcb5c50335d5ead4abea041e6e413ccd,
-        type: 3}
-      propertyPath: conversationActor
-      value: 
-      objectReference: {fileID: 1236108258}
     - target: {fileID: 4558708785850488, guid: bcb5c50335d5ead4abea041e6e413ccd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.82
@@ -762,6 +757,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 29f48cc2a8ed8f448a8579bc2c980c38, type: 2}
+    - target: {fileID: 4319380545694952484, guid: bcb5c50335d5ead4abea041e6e413ccd,
+        type: 3}
+      propertyPath: conversationActor
+      value: 
+      objectReference: {fileID: 1236108258}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5c50335d5ead4abea041e6e413ccd, type: 3}
 --- !u!1001 &196092915
@@ -2234,7 +2234,7 @@ PrefabInstance:
     - target: {fileID: 2818851188577835544, guid: 34a203bd0a61edc48b59dc482d206120,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.28
+      value: 2.383
       objectReference: {fileID: 0}
     - target: {fileID: 2818851188577835544, guid: 34a203bd0a61edc48b59dc482d206120,
         type: 3}
@@ -2244,7 +2244,7 @@ PrefabInstance:
     - target: {fileID: 2818851188577835544, guid: 34a203bd0a61edc48b59dc482d206120,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.88
+      value: -11.804
       objectReference: {fileID: 0}
     - target: {fileID: 2818851188577835544, guid: 34a203bd0a61edc48b59dc482d206120,
         type: 3}

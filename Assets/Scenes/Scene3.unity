@@ -147,6 +147,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &426676706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3902128957762955376, guid: 7326053fe772250489ef53bf8da893fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 618283229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &427209332
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +352,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3036777815124442401, guid: 7326053fe772250489ef53bf8da893fd,
+        type: 3}
+      propertyPath: death
+      value: 
+      objectReference: {fileID: 426676706}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7326053fe772250489ef53bf8da893fd, type: 3}
 --- !u!1001 &630694009
@@ -405,18 +416,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
---- !u!114 &716457799 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3036777815124442401, guid: 7326053fe772250489ef53bf8da893fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 618283229}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2d6b3fb9c4397b49971b99efde7acee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &728936498 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8102145764720296426, guid: 03c87afa55251074a9740a5c1c80a222,
@@ -959,7 +958,7 @@ PrefabInstance:
     - target: {fileID: 1573436785, guid: 34a203bd0a61edc48b59dc482d206120, type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 716457799}
+      objectReference: {fileID: 0}
     - target: {fileID: 2441274713842459496, guid: 34a203bd0a61edc48b59dc482d206120,
         type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
