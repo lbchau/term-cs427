@@ -20,8 +20,15 @@ public class PlayerControl : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            pause.gameObject.SetActive(!(pause.gameObject.activeSelf));
-            Time.timeScale = (Time.timeScale - 1)* (Time.timeScale - 1);
+            if (pause.gameObject.activeInHierarchy)
+            {
+                pause.SetActive(false);
+                Time.timeScale = 1;
+            } else
+            {
+                pause.SetActive(true);
+                Time.timeScale = 0;
+            }
             //Time.timeScale == 1 ? 0 : 1
         }
     }
