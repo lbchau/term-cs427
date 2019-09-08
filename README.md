@@ -1,7 +1,7 @@
-# CS427-Final-1651062
+# CS427-Final
 
 Author name: Mai Le Bao Linh - Le Bao Chau
-StudentID: 1651062 - 
+StudentID: 1651062 - 1651006
 
 #### Introduction 
 Introducing a horror puzzle game in 3D made with Unity, featuring a high school girl as the protagonist whose mission is to explore and find a way out of an abandon school where she was left behind.
